@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D3426;
+    color: white;
+}
+
+.imagem {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    color: #202020;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    flex-direction: column;
+    display: flex;
+}
+
+.card img {
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h1 {
+    font-size: 0.9rem;
+    padding-top: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 14px;
+    padding: 10px;
+
+
+}
+
+.btn {
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 10;
+    background-color: #00A750;
+    color: white;
+}
+
+h2 {
+    margin-top: 20px;
+    padding-left: 50px;
+
+}
+
+span {
+    text-align: center;
+}
+
+.preco {
+    height: 40px;
+    text-decoration: line-through;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: transparent;
+}
